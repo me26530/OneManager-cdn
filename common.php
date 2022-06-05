@@ -1229,7 +1229,7 @@ function adminform($name = '', $pass = '', $storage = '', $path = '')
         xhr.send(null);
     }
 </script>
-<script src="https://www.unpkg.com/js-sha1@0.6.0/src/sha1.js"></script>';
+<script src="https://github.elemecdn.com/js-sha1@0.6.0/src/sha1.js"></script>';
     $html .= '</html>';
     return output($html, $statusCode);
 }
@@ -1768,7 +1768,7 @@ output:
     } else {
         if (count($disktags)>1) {
             $frame .= '
-<script src="https://www.unpkg.com/sortablejs@1.14.0/Sortable.min.js"></script>
+<script src="https://github.elemecdn.com/sortablejs@1.14.0/Sortable.min.js"></script>
 <style>
     .sortable-ghost {
         opacity: 0.4;
@@ -2002,7 +2002,7 @@ output:
             $frame .= getconstStr('NotNeedUpdate');
         }*/
         $frame .= '<br><br>
-<script src="https://www.unpkg.com/js-sha1@0.6.0/src/sha1.js"></script>
+<script src="https://github.elemecdn.com/js-sha1@0.6.0/src/sha1.js"></script>
 <table>
     <form id="change_pass" name="change_pass" action="" method="POST" onsubmit="return changePassword(this);">
         <input name="_admin" type="hidden" value="">
